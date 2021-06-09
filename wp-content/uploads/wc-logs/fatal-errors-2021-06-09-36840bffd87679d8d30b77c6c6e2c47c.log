@@ -1,0 +1,65 @@
+2021-06-09T04:56:11+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:2900
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(292): WC_AJAX::shipping_zone_methods_save_changes()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-admin/admin-ajax.php(187): do_action()
+#4 {main}
+  thrown in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 2900
+
+2021-06-09T04:56:17+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:2900
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(292): WC_AJAX::shipping_zone_methods_save_changes()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-admin/admin-ajax.php(187): do_action()
+#4 {main}
+  thrown in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 2900
+
+2021-06-09T05:00:46+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:2900
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(292): WC_AJAX::shipping_zone_methods_save_changes()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-admin/admin-ajax.php(187): do_action()
+#4 {main}
+  thrown in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 2900
+
+2021-06-09T06:37:43+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:2900
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(292): WC_AJAX::shipping_zone_methods_save_changes()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-admin/admin-ajax.php(187): do_action()
+#4 {main}
+  thrown in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 2900
+
+2021-06-09T06:52:55+00:00 CRITICAL Uncaught Error: Call to a member function get_instance_option_key() on bool in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:2900
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(292): WC_AJAX::shipping_zone_methods_save_changes()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-admin/admin-ajax.php(187): do_action()
+#4 {main}
+  thrown in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/class-wc-ajax.php on line 2900
+
+2021-06-09T11:08:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function activeants_carrier_custom_fields(), 1 passed in /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php on line 294 and exactly 2 expected in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce-connector/inc/servicePointsShipping.php:550
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(294): activeants_carrier_custom_fields()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/templates/cart/cart-shipping.php(41): do_action()
+#4 /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/p...')
+#5 /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/wc-cart-functions.php(235): wc_get_template()
+#6 /var/www/html/php/wordpress_new/wp-co in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce-connector/inc/servicePointsShipping.php on line 550
+
+2021-06-09T11:47:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function activeants_carrier_custom_fields(), 1 passed in /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php on line 294 and exactly 2 expected in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce-connector/inc/servicePointsShipping.php:550
+Stack trace:
+#0 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(294): activeants_carrier_custom_fields()
+#1 /var/www/html/php/wordpress_new/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/php/wordpress_new/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/templates/cart/cart-shipping.php(41): do_action()
+#4 /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/p...')
+#5 /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce/includes/wc-cart-functions.php(235): wc_get_template()
+#6 /var/www/html/php/wordpress_new/wp-co in /var/www/html/php/wordpress_new/wp-content/plugins/woocommerce-connector/inc/servicePointsShipping.php on line 550
+
